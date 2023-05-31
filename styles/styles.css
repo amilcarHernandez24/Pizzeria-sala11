@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height: 100px;
+}
+.imagen-logo {
+    width: 234px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar ul {
+    width: 284px;
+    height: 19px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 41px;
+}
+
+.navbar ul li {
+    margin-right: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .ranking {
+
+} */
