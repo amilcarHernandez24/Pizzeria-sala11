@@ -4,36 +4,133 @@
     box-sizing: border-box;
 }
 
+main {
+    display: flex;
+    background-color: #e5e5e5;
+    justify-content: center;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    color: #fff;
+}
+
+footer img {
+    margin-right: 42px;
+}
+
 .header {
     background-color: #222222;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #fff;
     height: 100px;
 }
 .imagen-logo {
     width: 234px;
     height: 80px;
-    margin-top: 10px;
     margin-left: 20px;
 }
 
-.navbar ul {
+.navbar {
     width: 284px;
     height: 19px;
     list-style: none;
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
     margin-right: 20px;
-    margin-bottom: 41px;
 }
 
-.navbar ul li {
+.navbar li {
     margin-right: 13px;
     font-family: 'Roboto', sans-serif;
 }
 
-/* .ranking {
+.main-container {
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e5e5e5;
+}
 
-} */
+.banner {
+    background-image: url(../images/delivery.jpg);
+    width: 490px;
+    height: 350px;
+    margin-right: 5px;
+    border-radius: 5px
+}
+
+.banner h2 {
+    color: #FC200C;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.banner span {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.podio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 490px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.podio-title {
+    height: 20%;
+    font-family: 'Roboto', sans-serif;
+    color: #FC200C;
+}
+
+.podio-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-five {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-five h3 {
+    margin-bottom: 20px;
+}
+
+.top-five-list li {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.footer-list {
+    width: 78px;
+    height: 112px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.footer-list li {
+    margin-bottom: 12px;
+    font-family: 'Roboto', sans-serif;
+}
